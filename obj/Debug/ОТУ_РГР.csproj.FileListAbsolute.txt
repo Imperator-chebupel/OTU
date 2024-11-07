@@ -1,0 +1,10 @@
+C:\Users\azza1\source\repos\ОТУ_РГР\ОТУ_РГР\bin\Debug\ОТУ_РГР.exe.config
+C:\Users\azza1\source\repos\ОТУ_РГР\ОТУ_РГР\bin\Debug\ОТУ_РГР.exe
+C:\Users\azza1\source\repos\ОТУ_РГР\ОТУ_РГР\bin\Debug\ОТУ_РГР.pdb
+C:\Users\azza1\source\repos\ОТУ_РГР\ОТУ_РГР\obj\Debug\ОТУ_РГР.csproj.AssemblyReference.cache
+C:\Users\azza1\source\repos\ОТУ_РГР\ОТУ_РГР\obj\Debug\ОТУ_РГР.Form1.resources
+C:\Users\azza1\source\repos\ОТУ_РГР\ОТУ_РГР\obj\Debug\ОТУ_РГР.Properties.Resources.resources
+C:\Users\azza1\source\repos\ОТУ_РГР\ОТУ_РГР\obj\Debug\ОТУ_РГР.csproj.GenerateResource.cache
+C:\Users\azza1\source\repos\ОТУ_РГР\ОТУ_РГР\obj\Debug\ОТУ_РГР.csproj.CoreCompileInputs.cache
+C:\Users\azza1\source\repos\ОТУ_РГР\ОТУ_РГР\obj\Debug\ОТУ_РГР.exe
+C:\Users\azza1\source\repos\ОТУ_РГР\ОТУ_РГР\obj\Debug\ОТУ_РГР.pdb
