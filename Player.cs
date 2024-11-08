@@ -36,7 +36,7 @@ namespace ОТУ_РГР
                                                  {(20,25),(25,20),(null,null),(null,null),(null,null) }, //24
                                                  {(21,26),(23,24),(24,23),(26,21),(null,null) }, //25
                                                  {(25,19),(19,25),(null,null),(null,null),(null,null) } }; //26
-        private List<bool> Yes_No = new List<bool>();
+        internal List<bool> Yes_No = new List<bool>();
         internal int Current_location = 13;
         private int Moves = 0;
 

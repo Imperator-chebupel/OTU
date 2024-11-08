@@ -39,24 +39,31 @@ namespace ОТУ_РГР
         private int[] Winners = new int[5] {1,5,9,24,26 }; //победные точки
         private int Current_point = 13;
         private int Current_level = 0;
-        private int Current_move = 0;
         private Random R = new Random();
-        public double HintToExit;
-        internal int Max_moves;
-        public void StartGame(double A)
+        public float HintToExit;
+        //internal int Max_moves;
+
+
+        public Master (float A)
         {
             HintToExit = A;
         }
         public int Hint(int Point)
         {
             Current_point = Point;
+            for (int i = 0; i < Winners.Length; i++)
+            {
+                if (Current_point == Winners[i])
+                    return 999;
+            }
+
             List<(int,int)> A = new List<(int, int)> (); //Список вершин на уровень выше и соседних, если уровень максимален
             List<(int,int)> B = new List<(int, int)>(); // список вершин на уровень ниже и соседних, если уровень не максимален
             List<(int, int)> C = new List<(int, int)>(); //список соседних вершин, если подняться на уровень выше нельзя
             (int, int) Kostyl;
             for (int i = 0; i < 5; i++)
             {
-                if (Maze[Current_point, i] == (null, null))
+                if (Maze[Current_point, i] == (null, null)) 
                     break;
                 else 
                 {
