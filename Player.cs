@@ -10,8 +10,8 @@ namespace ОТУ_РГР
     {
         private (int?, int?)[,] Reaction = new (int?, int?)[27, 5] //реализация поведения игрока по принципу Текущая точка: реакция согласия, реакция отрицицания
                                                { {(null,null), (null, null),(null, null), (null, null), (null, null)}, //затычка
-                                                 {(2,4),(4,2),(null, null),(null,null),(null,null) }, //1
-                                                 {(3,5),(3,5),(1,10),(10,1),(null,null) }, //2
+                                                 {(2,4),(4,2),(null,null),(null,null),(null,null) }, //1
+                                                 {(3,5),(5,3),(1,10),(10,1),(null,null) }, //2
                                                  {(4,6),(6,4),(8,2),(2,8),(null,null) },//3
                                                  {(1,11),(11,1),(9,3),(3,9),(null,null) }, //4
                                                  {(2,20),(20,2),(null,null),(null,null),(null,null) }, //5
@@ -55,6 +55,8 @@ namespace ОТУ_РГР
         {
             for (int i = 0; i < 5; i++)
             {
+                if (Reaction[Current_location,i] == (null, null))
+                    break;
                 if ((int)(Reaction[Current_location, i].Item1) == Number)
                 {
                     if (Yes_No[Moves])
