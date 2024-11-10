@@ -37,14 +37,14 @@ namespace ОТУ_РГР
                                                  {(21,-1),(23,-1),(24,0),(26,0),(null,null) }, //25
                                                  {(19,0),(25,0),(null,null),(null,null),(null,null) } }; //26
         private int[] Winners = new int[5] {1,5,9,24,26 }; //победные точки
-        private int Current_point = 13;
-        private int Current_level = 0;
+        internal int Current_point = 13;
+        internal int Current_level = 0;
         private Random R = new Random();
         public float HintToExit;
         //internal int Max_moves;
 
 
-        public Master (float A)
+        public void Init (float A)
         {
             HintToExit = A;
         }

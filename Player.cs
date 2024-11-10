@@ -38,9 +38,9 @@ namespace ОТУ_РГР
                                                  {(25,19),(19,25),(null,null),(null,null),(null,null) } }; //26
         internal List<bool> Yes_No = new List<bool>();
         internal int Current_location = 13;
-        private int Moves = 0;
+        internal int Moves = 0;
 
-        public Player(List<int> Smth)
+        public void Init (List<int> Smth)
         {
             for (int i = 0; i < Smth.Count(); i++)
             {
