@@ -41,7 +41,6 @@ namespace ОТУ_РГР
         internal int Current_level = 0;
         private Random R = new Random();
         public float HintToExit;
-        //internal int Max_moves;
 
 
         public void Init (float A)
